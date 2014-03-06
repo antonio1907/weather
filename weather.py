@@ -3,8 +3,8 @@
 import requests
 import json
 
-print
-"""
+print """
+'''
 1.Almeria
 2. Cadiz
 3. Cordoba
@@ -13,6 +13,7 @@ print
 6. Jaen
 7. Malaga
 8. Sevilla
+
 """
 ciudades={1:"Almeria", 2:"Cadiz", 3:"Cordoba", 4:"Granada", 5:"Huelva", 6:"Jaen", 7:"Malaga", 8:"Sevilla"}
 ciudad=int(raw_input("De que ciudad quieres saber la temperatura actual?:"))
